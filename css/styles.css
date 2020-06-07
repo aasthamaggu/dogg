@@ -1,0 +1,329 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #f76a8c;
+color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+ line-height: 1.5;
+ font-size: 2.5rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+font-size: 2.5rem;
+}
+
+.container-fluid{
+
+  padding: 3% 15% 15%;
+}
+
+.dog{
+  height:600px;
+  width: 400px;
+  transform: rotate(20deg);
+border-radius: 10px 10px 10px 10px;
+  border-color: black;
+position: absolute;
+
+}
+/*navigation bar*/
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-item{
+  padding-right: 18px;
+}
+
+.btn{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#features{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+position: relative;
+z-index: 1;
+
+}
+.aa{
+  color:#f40552;
+  margin-left: 20px;
+}
+.aa:hover{
+  color: #ffacb7;
+}
+h3{
+  font-weight: bold;
+  color: black;
+}
+
+.feature-box{
+  text-align: center;
+
+}
+p{
+  color: gray;
+}
+.fling-minislide {width:100%; height:800px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 10s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+
+
+
+.tests{
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+
+#specials{
+
+  background-color: #f76a8c;
+  text-align: center;
+  color: white;
+}
+.special-text{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+font-size: 2.5rem;
+}
+.specials-text{
+  font-family: 'Architects Daughter', cursive;
+  line-height: 1.5;
+font-size: 1.5rem;
+}
+
+.dogs{
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+#p{
+
+  background-color: white;
+  text-align: center;
+  color: white;
+   height: 900px;
+}
+
+.pets{
+  height: 400px;
+  width: 400px;
+
+}
+.pet{
+  font-family: 'Montserrat', sans-serif;
+ line-height: 1.5;
+ font-size: 2.5rem;
+}
+/*testimonial section*/
+#testimonials{
+
+  background-color: #f76a8c;
+  text-align: center;
+  color: white;
+}
+.test{
+
+  border-radius: 50px;
+  padding-left: 2%;
+  width:50x;
+}
+
+#press{
+  background-color: #f76a8c;
+  text-align: center;
+padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:2%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* pricing section*/
+#pricing{
+  padding:100px;
+}
+.card-header{
+  padding: 3% 2%;
+}
+.card-body{
+  text-align: center;
+  margin-left: 2px;
+}
+
+@media(max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+
+  .dog{
+    position: static;
+    transform:rotate(0deg);
+    padding-top: 20px;
+    width:500px;
+    border-radius: 50px;
+    padding-right: 30px;
+    align-self: center;
+  }
+  .one{
+    font-size: 1rem;
+    line-height: normal;
+    width: 300px;
+    height: 300px;
+    padding-left: 5px;
+  }
+  .two{
+    font-size: 1rem;
+    line-height: normal;
+    width: 300px;
+    height: 300px;
+  }
+  .three{
+    font-size: 1rem;
+    line-height: normal;
+    width: 300px;
+    height: 300px;
+  }
+  .images{
+    width:400px;
+    height: 1050px;
+  }
+}
+/* cta section*/
+#cta{
+  background-color: #f76a8c;
+  text-align: center;
+  padding:7% 15%;
+
+
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+.last{
+
+  font-family:'Montserrat', sans-serif;
+  color:white;
+  margin-right: 10px;
+padding-bottom: 10px;
+line-height: 1.5;
+font-size: 3.5rem;
+}
+.btn{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.iconss{
+  color: black;
+  margin: 20px 10px;
+}
+.rock{
+  background-image: url(dog.png);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+/* Bottom left text */
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 25%;
+  left: 30px;
+  color: black;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 25%;
+  right: 25px;
+
+  color: black;
+}
+
+/* Bottom right text */
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+.aastha{
+  width:100%;
+  image-orientation: 100%;
+}
+.text{
+  color:black;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+
+
+.one{
+  padding-top: 90px;
+
+}
+.two{
+  padding-top: 90px;
+}
+.three{
+  padding-top: 90px;
+}
+.images{
+  height: 500px;
+  background-image: url(images/dog-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  background-color: #ffebd9;
+}
+.last{
+  color:black;
+}
+.btnn{
+  color: #fe346e;
+}
